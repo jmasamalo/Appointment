@@ -19,7 +19,7 @@ CREATE DATABASE jlm;
 CREATE TABLE `jlm`.`appointment` (
   `id` INT(6) NOT NULL AUTO_INCREMENT,
 	description TEXT NOT NULL,
-	appointment_date TIMESTAMP,
+	appointment_date TIMESTAMP NOT NULL,
   PRIMARY KEY (`id`))
 COMMENT = 'A table to hold appointments';
 
