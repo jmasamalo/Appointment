@@ -109,7 +109,7 @@ function timeConverter(UNIX_timestamp){
 	  var min = a.getMinutes();
 	  var sec = a.getSeconds();
 	  var time = day + '-' + month + '-' + year + '  ' + hour + ':' + min + ':' + sec ;
-	  var dateV = day + '-' + month + '-' + year ;
+	  var dateV = day + ' ' + month + ' ' + year ;
 	  var timeV = hour + ':' + min + ':' + sec ;
 	  return [dateV,timeV];
 }
