@@ -36,7 +36,6 @@ insert into jlm.appointment(description,appointment_date) values("Screening", '2
 
 TESTING
 ===============
-Kindly note DATE is saved well in DB but not displaying well in the page table (not formatted hence gives just a figure).
 No date picker implemented
 1.) Use past date as 2017-02-17 13:09:59 , wont be added to db and validation shows when you click new again
 2.) Use future date as 2018-05-17 13:09:59, it will add if description is not empty
