@@ -14,18 +14,16 @@ function getAppointments(){
 		data : dataToSend,
 		contentType : 'application/json', // Sends - Content-type
 		success: function(response) {
-			$('#appointmentsTable').html("");
-			$("#appointmentsTable").append( '<table><tr><th>Date</th><th>Time</th><th>Description</th></tr>'); 
 			
+			var table = '<table class="dataTable"><tr><th>Date</th><th>Time</th><th>Description</th></tr>';
 			$.each(response, function(i, appointment) {
-				$("#appointmentsTable").append( '<tr>');
-				$("#appointmentsTable").append('<td>' + timeConverter(appointment.dateTime)[0] + '</td>');
-				$("#appointmentsTable").append('<td>' + timeConverter(appointment.dateTime)[1] + '</td>');
-				$("#appointmentsTable").append('<td>' + appointment.description + '</td>');
-				$("#appointmentsTable").append( '</tr>');
+				table += '<tr><td>' + timeConverter(appointment.dateTime)[0] + '</td>';
+				table += '<td>' + timeConverter(appointment.dateTime)[1] + '</td>';
+				table += '<td>' + appointment.description + '</td></tr>';
 			});
+			table += '</table>';
+			$('#appointmentsTable').html(table);
 			
-			$("#appointmentsTable").append('</table>');
 			make_visible('appointmentsTable');
 			make_hidden('errors');
 		},

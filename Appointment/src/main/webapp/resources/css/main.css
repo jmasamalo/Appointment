@@ -39,3 +39,8 @@ form label {
 #errors, li {
 	color: red;
 }
+
+.dataTable{
+	border: 1px solid #CCCCCC;
+	width: 600px;
+}
