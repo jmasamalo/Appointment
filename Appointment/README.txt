@@ -43,7 +43,7 @@ No date picker implemented
 3.) Putting text under date field will show validation error, after clicking new
 
 
-Lastly Words:
+Lastly :
 =============
 
 I can work further to improve date issue (formatting and date picker).
