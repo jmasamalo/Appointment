@@ -19,7 +19,7 @@ function getAppointments(){
 			
 			$.each(response, function(i, appointment) {
 				$("#appointmentsTable").append( '<tr>');
-				$("#appointmentsTable").append('<td>' + appointment.dateTime + '</td>');
+				$("#appointmentsTable").append('<td>' + timeConverter(appointment.dateTime) + '</td>');
 				$("#appointmentsTable").append('<td>' + appointment.description + '</td>');
 				$("#appointmentsTable").append( '</tr>');
 			});
@@ -96,5 +96,18 @@ resetForm = function(id) {
     });
     return jsonObject;
 
-};
+}
+ 
+function timeConverter(UNIX_timestamp){
+	  var a = new Date(UNIX_timestamp);
+	  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+	  var year = a.getFullYear();
+	  var month = months[a.getMonth()];
+	  var date = a.getDate();
+	  var hour = a.getHours();
+	  var min = a.getMinutes();
+	  var sec = a.getSeconds();
+	  var time = date + '-' + month + '-' + year + '  ' + hour + ':' + min + ':' + sec ;
+	  return time;
+}
 

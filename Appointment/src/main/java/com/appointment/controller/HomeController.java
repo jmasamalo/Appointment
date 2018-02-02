@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.appointment.domain.Appointment;
@@ -46,11 +47,19 @@ public class HomeController {
 	public @ResponseBody List<Appointment>  getAppointments( @RequestBody Search desc) {
 		
 		List<Appointment> appointments;
-		if(desc.getSearch().equals("")) {
+		if(desc==null || desc.getSearch().equals("")) {
 			 appointments = appointmentService.getAll();
 		}else {
 			 appointments = appointmentService.findByDescription(desc.getSearch());
 		}
+		
+		return appointments;
+	}
+	
+	@RequestMapping(value = "/ajax", method=RequestMethod.GET)
+	public @ResponseBody List<Appointment>  getAllAppointments() {
+		
+		List<Appointment> appointments = appointmentService.getAll();
 		
 		return appointments;
 	}
