@@ -15,11 +15,12 @@ function getAppointments(){
 		contentType : 'application/json', // Sends - Content-type
 		success: function(response) {
 			$('#appointmentsTable').html("");
-			$("#appointmentsTable").append( '<table><tr><th>Date and Time</th><th>Description</th></tr>'); 
+			$("#appointmentsTable").append( '<table><tr><th>Date</th><th>Time</th><th>Description</th></tr>'); 
 			
 			$.each(response, function(i, appointment) {
 				$("#appointmentsTable").append( '<tr>');
-				$("#appointmentsTable").append('<td>' + timeConverter(appointment.dateTime) + '</td>');
+				$("#appointmentsTable").append('<td>' + timeConverter(appointment.dateTime)[0] + '</td>');
+				$("#appointmentsTable").append('<td>' + timeConverter(appointment.dateTime)[1] + '</td>');
 				$("#appointmentsTable").append('<td>' + appointment.description + '</td>');
 				$("#appointmentsTable").append( '</tr>');
 			});
@@ -103,11 +104,13 @@ function timeConverter(UNIX_timestamp){
 	  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 	  var year = a.getFullYear();
 	  var month = months[a.getMonth()];
-	  var date = a.getDate();
+	  var day = a.getDate();
 	  var hour = a.getHours();
 	  var min = a.getMinutes();
 	  var sec = a.getSeconds();
-	  var time = date + '-' + month + '-' + year + '  ' + hour + ':' + min + ':' + sec ;
-	  return time;
+	  var time = day + '-' + month + '-' + year + '  ' + hour + ':' + min + ':' + sec ;
+	  var dateV = day + '-' + month + '-' + year ;
+	  var timeV = hour + ':' + min + ':' + sec ;
+	  return [dateV,timeV];
 }
 
