@@ -2,23 +2,23 @@
     text-align: left;
     border: 1px solid #dedede;
     background: #efefef;
-    width: 960px;
+    width: 900px;
     padding: 20px;
     margin: 100px auto;
 }
 
 form {
-  font:100% verdana;
+  font:100% Awesome;
   min-width: 850px;
   max-width: 900px;
-  width: 870px;
+  width: 900px;
 }
 
 form fieldset {
   border-color: #bdbebf;
   border-width: 3px;
   margin: 0;
-  border: 1px solid #808080;
+  border: 1px solid #CCCCCC;
 }
 
 legend {
@@ -38,4 +38,10 @@ form label {
 }
 #errors, li {
 	color: red;
+}
+
+.dataTable{
+	border: 1px solid #CCCCCC;
+	padding: 1em;
+	width: 900px;
 }

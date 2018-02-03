@@ -29,8 +29,8 @@ public class Appointment implements Serializable {
 	private long id;
 
 	@Temporal(TemporalType.TIMESTAMP)
-	@DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
-	@NotNull(message = "Ivalid Date - use this formart YYYY-MM-DD HH:MM:SS")
+	@DateTimeFormat(pattern="yyyy-MM-dd HH:mm")
+	@NotNull(message = "Ivalid Date - use this formart YYYY-MM-DD HH:MM")
 	@Future(message = "Ivalid Date - cannot be in the past")
 	@Column(name="appointment_date")
     private Date dateTime;

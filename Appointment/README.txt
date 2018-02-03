@@ -25,9 +25,9 @@ i.e.
 
 5.) Run the following queries, to start with
 
-insert into jlm.appointment(description,appointment_date) values("Java interview", '2018-02-15 13:09:59');
-insert into jlm.appointment(description,appointment_date) values("PHP interview", '2018-02-16 13:09:59');
-insert into jlm.appointment(description,appointment_date) values("Screening", '2018-02-17 13:09:59');
+insert into jlm.appointment(description,appointment_date) values("Java interview", '2018-02-15 13:09');
+insert into jlm.appointment(description,appointment_date) values("PHP interview", '2018-02-16 13:09');
+insert into jlm.appointment(description,appointment_date) values("Screening", '2018-02-17 13:09');
 
 6.) Have Spring-Tool-Suite (STS) IDE ready, import the Java project as maven project, by browsing to the folder containing the application (Appointment).
 
@@ -42,12 +42,10 @@ No date picker implemented
 3.) Putting text under date field will show validation error, after clicking new
 
 
-Lastly :
+
 =============
 
-I can work further to improve date issue (formatting and date picker) and general layout.
-
-Thank you. 
+Thanks,
 
 By JOHN LUCAS MASAMALO
 

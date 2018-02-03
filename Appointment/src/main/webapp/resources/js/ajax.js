@@ -107,8 +107,15 @@ function timeConverter(UNIX_timestamp){
 	  var min = a.getMinutes();
 	  var sec = a.getSeconds();
 	  var time = day + '-' + month + '-' + year + '  ' + hour + ':' + min + ':' + sec ;
-	  var dateV = day + ' ' + month + ' ' + year ;
-	  var timeV = hour + ':' + min + ':' + sec ;
+	  var dateV = lzero(day) + ' ' + month + ' ' + year ;
+	  var timeV = lzero(hour) + ':' + lzero(min) ;
 	  return [dateV,timeV];
+}
+
+function lzero(n){
+	if(n<10){
+		return '0'+n;
+	}
+	return n;
 }
 

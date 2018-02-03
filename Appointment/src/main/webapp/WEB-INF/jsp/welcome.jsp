@@ -8,7 +8,11 @@
  	
  	<script type="text/javascript" src="<spring:url value="/resources/js/jquery-3.3.1.min.js"/>"></script>
  	
+ 	<script type="text/javascript" src="<spring:url value="/resources/js/jquery.simple-dtpicker.js"/>"></script>
+ 	
 	<script type="text/javascript" src="<spring:url value="/resources/js/ajax.js"/>"></script>
+	
+	<style type="text/css">@import url(resources/css/jquery.simple-dtpicker.css);</style>
 	
 	<style type="text/css">@import url(resources/css/main.css);</style>
 </head>
@@ -34,8 +38,8 @@
 				</p>
 				
 				<p>
-					<label for="dateTime">Date and Time (YYYY-MM-DD HH:MM:SS): </label>
-					<form:input path="dateTime" size="20" maxlength="19"/>
+					<label for="dateTime">Date and Time (YYYY-MM-DD HH:MM): </label>
+					<form:input path="dateTime" id="date_manual" size="20" maxlength="16"/>
 				</p>
 				
 				<p>
@@ -68,5 +72,10 @@
 		
 		</div>
 		
-	
+				<script type="text/javascript">
+				
+					$(function(){
+						$('#date_manual').appendDtpicker();
+					});
+				</script>
 </html>
