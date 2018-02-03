@@ -38,7 +38,7 @@
 				</p>
 				
 				<p>
-					<label for="dateTime">Date and Time (YYYY-MM-DD HH:MM): </label>
+					<label for="dateTime">Date and Time (yyyy-mm-dd hh:mm): </label>
 					<form:input path="dateTime" id="date_manual" size="20" maxlength="16"/>
 				</p>
 				
