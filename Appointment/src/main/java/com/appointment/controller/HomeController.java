@@ -56,6 +56,7 @@ public class HomeController {
 		return appointments;
 	}
 	
+	// This is useful for the purpose of viewing the json list from browser
 	@RequestMapping(value = "/ajax", method=RequestMethod.GET)
 	public @ResponseBody List<Appointment>  getAllAppointments() {
 		
