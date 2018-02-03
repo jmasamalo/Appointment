@@ -40,7 +40,7 @@ public class HomeController {
 		
 		appointmentService.save(appointment);
 
-		return "welcome";
+		return "redirect:/";
 	}
 	
 	@RequestMapping(value = "/ajax", method=RequestMethod.POST)
