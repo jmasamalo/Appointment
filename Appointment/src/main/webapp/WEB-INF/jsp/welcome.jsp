@@ -62,7 +62,7 @@
 			</form>
 		 
 		 </div>
-		<h1>APPOINTMENTS</h1>
+		<h3>APPOINTMENTS</h3>
 		
 		<div  id="appointmentsTable" style="display:none" ></div> 
 		
