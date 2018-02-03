@@ -6,7 +6,7 @@
 <head>
 	<title>Appointment App</title>
  	
- 	<script type="text/javascript" src="<spring:url value="/resources/js/jquery-3.3.1.min.js"/>"></script>
+ 	<script type="text/javascript" src="<spring:url value="/resources/js/jquery.min.js"/>"></script>
  	
  	<script type="text/javascript" src="<spring:url value="/resources/js/jquery.simple-dtpicker.js"/>"></script>
  	

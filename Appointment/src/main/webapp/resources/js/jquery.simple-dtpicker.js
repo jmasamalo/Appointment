@@ -17,55 +17,55 @@
 			today: 'Today'
 		},
 		ro:{
-			days: ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'Sâm'],
+			days: ['Dum', 'Lun', 'Mar', 'Mie', 'Joi', 'Vin', 'SÃ¢m'],
 			months: ['Ian', 'Feb', 'Mar', 'Apr', 'Mai', 'Iun', 'Iul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
 			sep: '.',
 			format: 'DD.MM.YYYY hh:mm',
-			prevMonth: 'Luna precedentă',
-			nextMonth: 'Luna următoare',
+			prevMonth: 'Luna precedentÄƒ',
+			nextMonth: 'Luna urmÄƒtoare',
 			today: 'Azi'
 		},
 
 		ja: {
-			days: ['日', '月', '火', '水', '木', '金', '土'],
+			days: ['æ—¥', 'æœˆ', 'ç«', 'æ°´', 'æœ¨', 'é‡‘', 'åœŸ'],
 			months: [ "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ],
 			sep: '/',
 			format: 'YYYY/MM/DD hh:mm'
 		},
 		ru: {
-			days: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
-			months: [ "Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек" ],
+			days: ['Ð’Ñ', 'ÐŸÐ½', 'Ð’Ñ‚', 'Ð¡Ñ€', 'Ð§Ñ‚', 'ÐŸÑ‚', 'Ð¡Ð±'],
+			months: [ "Ð¯Ð½Ð²", "Ð¤ÐµÐ²", "ÐœÐ°Ñ€", "ÐÐ¿Ñ€", "ÐœÐ°Ð¹", "Ð˜ÑŽÐ½", "Ð˜ÑŽÐ»", "ÐÐ²Ð³", "Ð¡ÐµÐ½", "ÐžÐºÑ‚", "ÐÐ¾Ñ", "Ð”ÐµÐº" ],
 			format: 'DD.MM.YYYY hh:mm'
 		},
 		br: {
-			days: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
-			months: [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ],
+			days: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'SÃ¡b'],
+			months: [ "Janeiro", "Fevereiro", "MarÃ§o", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ],
 			format: 'DD/MM/YYYY hh:mm'
 		},
 		pt: {
-			days: ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'],
-			months: [ "janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro" ]
+			days: ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sÃ¡b'],
+			months: [ "janeiro", "fevereiro", "marÃ§o", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro" ]
 		},
 		cn: {
-			days: ['日', '一', '二', '三', '四', '五', '六'],
-			months: [ "一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月", "九月", "十月", "十一月", "十二月" ]
+			days: ['æ—¥', 'ä¸€', 'äºŒ', 'ä¸‰', 'å››', 'äº”', 'å…­'],
+			months: [ "ä¸€æœˆ", "äºŒæœˆ", "ä¸‰æœˆ", "å››æœˆ", "äº”æœˆ", "å…­æœˆ", "ä¸ƒæœˆ", "å…«æœˆ", "ä¹æœˆ", "åæœˆ", "åä¸€æœˆ", "åäºŒæœˆ" ]
 		},
 		da: {
-			days: ['Sø', 'Ma', 'Ti', 'On', 'To', 'Fr', 'Lø'],
+			days: ['SÃ¸', 'Ma', 'Ti', 'On', 'To', 'Fr', 'LÃ¸'],
 			months: [ "Jan", "Feb", "Mar", "Apr", "Maj", "Juni", "Juli", "Aug", "Sept", "Okt", "Nov", "Dec" ],
 			sep: '-',
 			format: 'DD-MM-YYYY hh:mm',
-			prevMonth: 'Forrige måned',
-			nextMonth: 'Næste måned',
+			prevMonth: 'Forrige mÃ¥ned',
+			nextMonth: 'NÃ¦ste mÃ¥ned',
 			today: 'I dag'
 		},
 		de: {
 			days: ['So', 'Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa'],
-			months: [ "Jan", "Feb", "März", "Apr", "Mai", "Juni", "Juli", "Aug", "Sept", "Okt", "Nov", "Dez" ],
+			months: [ "Jan", "Feb", "MÃ¤rz", "Apr", "Mai", "Juni", "Juli", "Aug", "Sept", "Okt", "Nov", "Dez" ],
 			format: 'DD.MM.YYYY hh:mm'
 		},
 		sv: {
-			days: ['Sö', 'Må', 'Ti', 'On', 'To', 'Fr', 'Lö'],
+			days: ['SÃ¶', 'MÃ¥', 'Ti', 'On', 'To', 'Fr', 'LÃ¶'],
 			months: [ "Jan", "Feb", "Mar", "Apr", "Maj", "Juni", "Juli", "Aug", "Sept", "Okt", "Nov", "Dec" ]
 		},
 		id: {
@@ -78,21 +78,21 @@
 			format: 'DD/MM/YYYY hh:mm'
 		},
 		tr: {
-			days: ['Pz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cu', 'Cts'],
-			months: [ "Ock", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Agu", "Eyl", "Ekm", "Kas", "Arlk" ]
+			days: ['Pz', 'Pzt', 'Sal', 'Ã‡ar', 'Per', 'Cu', 'Cts'],
+			months: [ "Ock", "Åžub", "Mar", "Nis", "May", "Haz", "Tem", "Agu", "Eyl", "Ekm", "Kas", "Arlk" ]
 		},
 		es: {
-			days: ['dom', 'lun', 'mar', 'miér', 'jue', 'vie', 'sáb'],
+			days: ['dom', 'lun', 'mar', 'miÃ©r', 'jue', 'vie', 'sÃ¡b'],
 			months: [ "ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic" ],
 			format: 'DD/MM/YYYY hh:mm'
 		},
 		ko: {
-			days: ['일', '월', '화', '수', '목', '금', '토'],
+			days: ['ì¼', 'ì›”', 'í™”', 'ìˆ˜', 'ëª©', 'ê¸ˆ', 'í† '],
 			months: [ "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" ],
 			sep: '/',
-			prevMonth: '이전 달',
-			nextMonth: '다음 달',
-			today: '오늘'
+			prevMonth: 'ì´ì „ ë‹¬',
+			nextMonth: 'ë‹¤ìŒ ë‹¬',
+			today: 'ì˜¤ëŠ˜'
 		},
 		nl: {
 			days: ['zo', 'ma', 'di', 'wo', 'do', 'vr', 'za'],
@@ -100,90 +100,90 @@
 			format: 'DD-MM-YYYY hh:mm'
 		},
 		no: {
-			days: ['Søn', 'Man', 'Tir', 'Ons', 'Tor', 'Fre', 'Lør'],
+			days: ['SÃ¸n', 'Man', 'Tir', 'Ons', 'Tor', 'Fre', 'LÃ¸r'],
 			months: [ "Jan", "Feb", "Mar", "Apr", "Mi", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Des" ],
 			sep: '.',
 			format: 'YYYY-MM-DD hh:mm',
-			prevMonth: 'Forrige Måned',
-			nextMonth: 'Neste Måned',
+			prevMonth: 'Forrige MÃ¥ned',
+			nextMonth: 'Neste MÃ¥ned',
 			today: 'I dag'
 		},
 		cz: {
-			days: ['Ne', 'Po', 'Út', 'St', 'Čt', 'Pá', 'So'],
-			months: [ "Led", "Úno", "Bře", "Dub", "Kvě", "Čer", "Čvc", "Srp", "Zář", "Říj", "Lis", "Pro" ],
+			days: ['Ne', 'Po', 'Ãšt', 'St', 'ÄŒt', 'PÃ¡', 'So'],
+			months: [ "Led", "Ãšno", "BÅ™e", "Dub", "KvÄ›", "ÄŒer", "ÄŒvc", "Srp", "ZÃ¡Å™", "Å˜Ã­j", "Lis", "Pro" ],
 			format: 'DD.MM.YYYY hh:mm'
 		},
 		fr: {
 			days: ['Dim', 'Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam'],
-			months: [ "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre" ],
+			months: [ "Janvier", "FÃ©vrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "AoÃ»t", "Septembre", "Octobre", "Novembre", "DÃ©cembre" ],
 			format: 'DD-MM-YYYY hh:mm'
 		},
 		pl: {
-			days: ['N', 'Pn', 'Wt', 'Śr', 'Cz', 'Pt', 'So'],
-			months: [ "Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień" ],
+			days: ['N', 'Pn', 'Wt', 'Åšr', 'Cz', 'Pt', 'So'],
+			months: [ "StyczeÅ„", "Luty", "Marzec", "KwiecieÅ„", "Maj", "Czerwiec", "Lipiec", "SierpieÅ„", "WrzesieÅ„", "PaÅºdziernik", "Listopad", "GrudzieÅ„" ],
 			sep: '-',
 			format: 'YYYY-MM-DD hh:mm',
-			prevMonth: 'Poprzedni miesiąc',
-			nextMonth: 'Następny miesiąc',
+			prevMonth: 'Poprzedni miesiÄ…c',
+			nextMonth: 'NastÄ™pny miesiÄ…c',
 			today: 'Dzisiaj'
 		},
 		gr: {
-			days: ['Κυ', 'Δε', 'Τρ', 'Τε', 'Πε', 'Πα', 'Σα'],
-			months: [ "Ιαν", "Φεβ", "Μαρ", "Απρ", "Μαϊ", "Ιουν", "Ιουλ", "Αυγ", "Σεπ", "Οκτ", "Νοε", "Δεκ" ],
+			days: ['ÎšÏ…', 'Î”Îµ', 'Î¤Ï', 'Î¤Îµ', 'Î Îµ', 'Î Î±', 'Î£Î±'],
+			months: [ "Î™Î±Î½", "Î¦ÎµÎ²", "ÎœÎ±Ï", "Î‘Ï€Ï", "ÎœÎ±ÏŠ", "Î™Î¿Ï…Î½", "Î™Î¿Ï…Î»", "Î‘Ï…Î³", "Î£ÎµÏ€", "ÎŸÎºÏ„", "ÎÎ¿Îµ", "Î”ÎµÎº" ],
 			sep: '-',
 			format: 'DD-MM-YYYY hh:mm',
-			prevMonth: 'Προηγ. μήνας',
-			nextMonth: 'Επόμ. μήνας',
-			today: 'Σήμερα'
+			prevMonth: 'Î ÏÎ¿Î·Î³. Î¼Î®Î½Î±Ï‚',
+			nextMonth: 'Î•Ï€ÏŒÎ¼. Î¼Î®Î½Î±Ï‚',
+			today: 'Î£Î®Î¼ÎµÏÎ±'
 		},
 		ua: {
-			days: ["Неділя","Понеділок","Вівторок","Cереда","Четвер","П'ятниця","Субота"],
-			months: ["Cічень","Лютий","Березень","Квітень","Травень","Червня","Липня","Серпня","Вересня","Жовтень","Листопада","Грудня"],
+			days: ["ÐÐµÐ´Ñ–Ð»Ñ","ÐŸÐ¾Ð½ÐµÐ´Ñ–Ð»Ð¾Ðº","Ð’Ñ–Ð²Ñ‚Ð¾Ñ€Ð¾Ðº","CÐµÑ€ÐµÐ´Ð°","Ð§ÐµÑ‚Ð²ÐµÑ€","ÐŸ'ÑÑ‚Ð½Ð¸Ñ†Ñ","Ð¡ÑƒÐ±Ð¾Ñ‚Ð°"],
+			months: ["CÑ–Ñ‡ÐµÐ½ÑŒ","Ð›ÑŽÑ‚Ð¸Ð¹","Ð‘ÐµÑ€ÐµÐ·ÐµÐ½ÑŒ","ÐšÐ²Ñ–Ñ‚ÐµÐ½ÑŒ","Ð¢Ñ€Ð°Ð²ÐµÐ½ÑŒ","Ð§ÐµÑ€Ð²Ð½Ñ","Ð›Ð¸Ð¿Ð½Ñ","Ð¡ÐµÑ€Ð¿Ð½Ñ","Ð’ÐµÑ€ÐµÑÐ½Ñ","Ð–Ð¾Ð²Ñ‚ÐµÐ½ÑŒ","Ð›Ð¸ÑÑ‚Ð¾Ð¿Ð°Ð´Ð°","Ð“Ñ€ÑƒÐ´Ð½Ñ"],
 			format: 'YYYY-MM-DD hh:mm',
-			prevMonth: 'Попередній місяць',
-			nextMonth: 'Наступний місяць',
-			today: 'Cьогодні'
+			prevMonth: 'ÐŸÐ¾Ð¿ÐµÑ€ÐµÐ´Ð½Ñ–Ð¹ Ð¼Ñ–ÑÑÑ†ÑŒ',
+			nextMonth: 'ÐÐ°ÑÑ‚ÑƒÐ¿Ð½Ð¸Ð¹ Ð¼Ñ–ÑÑÑ†ÑŒ',
+			today: 'CÑŒÐ¾Ð³Ð¾Ð´Ð½Ñ–'
 		},
 		et: {
 			days: ['P', 'E', 'T', 'K', 'N', 'R', 'L'],
-			months: [ "Jaan", "Veebr", "Märts", "Apr", "Mai", "Juun", "Juul", "Aug", "Sept", "Okt", "Nov", "Dets" ],
+			months: [ "Jaan", "Veebr", "MÃ¤rts", "Apr", "Mai", "Juun", "Juul", "Aug", "Sept", "Okt", "Nov", "Dets" ],
 			sep: '.',
 			format: 'DD.MM.YYYY hh:mm',
 			prevMonth: 'Eelmine kuu',
-			nextMonth: 'Järgmine kuu',
-			today: 'Täna'
+			nextMonth: 'JÃ¤rgmine kuu',
+			today: 'TÃ¤na'
 		},
 		hu: {
-			days: ['Va', 'Hé', 'Ke', 'Sze', 'Cs', 'Pé', 'Szo'],
-			months: [ "Jan", "Feb", "Már", "Ápr", "Máj", "Jún", "Júl", "Aug", "Szep", "Okt", "Nov", "Dec" ],
+			days: ['Va', 'HÃ©', 'Ke', 'Sze', 'Cs', 'PÃ©', 'Szo'],
+			months: [ "Jan", "Feb", "MÃ¡r", "Ãpr", "MÃ¡j", "JÃºn", "JÃºl", "Aug", "Szep", "Okt", "Nov", "Dec" ],
 			sep: '-',
 			format: 'YYYY-MM-DD hh:mm:00',
-			prevMonth: 'Előző hónap',
-			nextMonth: 'Következő hónap',
+			prevMonth: 'ElÅ‘zÅ‘ hÃ³nap',
+			nextMonth: 'KÃ¶vetkezÅ‘ hÃ³nap',
 			today: 'Ma'
 		},
 		fa: {
-			days: ['یکشنبه', 'دوشنبه', 'سه شنبه', 'چهارشنبه', 'پنج شنبه', 'جمعه', 'شنبه'],
-			months: [ "ژانویه", "فبریه", "مارچ", "آپریل", "می", "ژوئن", "جولای", "آگوست", "سپتامبر", "اکتبر", "نوامبر", "دسامبر" ],
+			days: ['ÛŒÚ©Ø´Ù†Ø¨Ù‡', 'Ø¯ÙˆØ´Ù†Ø¨Ù‡', 'Ø³Ù‡ Ø´Ù†Ø¨Ù‡', 'Ú†Ù‡Ø§Ø±Ø´Ù†Ø¨Ù‡', 'Ù¾Ù†Ø¬ Ø´Ù†Ø¨Ù‡', 'Ø¬Ù…Ø¹Ù‡', 'Ø´Ù†Ø¨Ù‡'],
+			months: [ "Ú˜Ø§Ù†ÙˆÛŒÙ‡", "ÙØ¨Ø±ÛŒÙ‡", "Ù…Ø§Ø±Ú†", "Ø¢Ù¾Ø±ÛŒÙ„", "Ù…ÛŒ", "Ú˜ÙˆØ¦Ù†", "Ø¬ÙˆÙ„Ø§ÛŒ", "Ø¢Ú¯ÙˆØ³Øª", "Ø³Ù¾ØªØ§Ù…Ø¨Ø±", "Ø§Ú©ØªØ¨Ø±", "Ù†ÙˆØ§Ù…Ø¨Ø±", "Ø¯Ø³Ø§Ù…Ø¨Ø±" ],
 			sep: '-',
 			format: 'YYYY-MM-DD hh:mm',
-			prevMonth: 'ماه قبل',
-			nextMonth: 'ماه بعد',
-			today: 'امروز'
+			prevMonth: 'Ù…Ø§Ù‡ Ù‚Ø¨Ù„',
+			nextMonth: 'Ù…Ø§Ù‡ Ø¨Ø¹Ø¯',
+			today: 'Ø§Ù…Ø±ÙˆØ²'
 		},
 		lv: {
 			days: ['Sv', 'P', 'O', 'T', 'C', 'P', 'S'],
-			months: [ "Jan", "Feb", "Mar", "Apr", "Mai", "Jūn", "Jūl", "Avg", "Sep", "Okt", "Nov", "Dec" ],
+			months: [ "Jan", "Feb", "Mar", "Apr", "Mai", "JÅ«n", "JÅ«l", "Avg", "Sep", "Okt", "Nov", "Dec" ],
 			format: 'DD.MM.YYYY hh:mm'
 		},
 		lt: {
-			days: ['Pr', 'A', 'T', 'K', 'P', 'Š', 'S'],
-			months: [ "Saus.", "Vas.", "Kovas", "Bal.", "Geg.", "Birž.", "Liepa", "Rugp.", "Rugs.", "Spal.", "Lapkr.", "Gruod." ],
+			days: ['Pr', 'A', 'T', 'K', 'P', 'Å ', 'S'],
+			months: [ "Saus.", "Vas.", "Kovas", "Bal.", "Geg.", "BirÅ¾.", "Liepa", "Rugp.", "Rugs.", "Spal.", "Lapkr.", "Gruod." ],
 			sep: '-',
 			format: 'YYYY-MM-DD hh:mm',
-			prevMonth: 'Praeitas mėnesis',
-			nextMonth: 'Sekantis mėnesis',
-			today: 'Šiandien'
+			prevMonth: 'Praeitas mÄ—nesis',
+			nextMonth: 'Sekantis mÄ—nesis',
+			today: 'Å iandien'
 		}
 	};
 	/* ----- */
