@@ -32,7 +32,7 @@
 			
 			<form:form modelAttribute="appointment"  action="" method="POST">
 			<fieldset>
-				<legend>Add an appointment</legend>
+				<legend>CREATE APPOINTMENT</legend>
 				<p>
 					<form:errors path="*" cssStyle="color : red;" />
 				</p>
